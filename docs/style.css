@@ -8,7 +8,7 @@ body {
 }
 
 
-textarea{
+.textoescrita {
     width:100%;
     height: 100px;
       position: fixed; 
