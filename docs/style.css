@@ -11,10 +11,7 @@ body {
   position: fixed;          /* fica por cima da página */
 }
 
-.editor textarea {
-  width: 300px;
-  height: 120px;
-}
+
 
 
 .introducao {
