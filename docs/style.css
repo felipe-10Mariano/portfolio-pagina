@@ -9,12 +9,12 @@ body {
 
 
 .editor {
-    display: flex;
+    display: block;
     padding-bottom: 3%; 
 }
 
 .textoescrita {
-    width:100%;
+    width:30%;
     height: 100px;
       position: fixed; 
       
