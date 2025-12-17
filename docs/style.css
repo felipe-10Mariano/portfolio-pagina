@@ -18,6 +18,11 @@ body {
     height: 100px;
     position: fixed; 
       justify-content: center;
+      top: 30%;
+      left:50%;
+      transform: translate(-30%,-50%);
+      border: #9c27b0;
+      border-radius: 3%;
 }
 
 
