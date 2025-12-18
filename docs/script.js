@@ -1,5 +1,4 @@
 // define duas constantes que chamam doi id, assim, se algo for moadifcado nelas aqui também muda.
-alert("JS funcionando!");
 const botao_text = document.getElementById("abrir_texto");
 const caixa_texto = document.getElementById("caixa_texto");
 
