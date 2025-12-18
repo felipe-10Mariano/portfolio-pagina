@@ -21,7 +21,7 @@ body {
       top: 50%;
       left:50%;
       transform: translate(-50%,-50%);
-      border: 2px solid #b1e384;
+      border: 6% solid #b1e384;
 }
 
 #caixa_texto {
