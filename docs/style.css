@@ -24,6 +24,9 @@ body {
       border: 2px solid #b1e384;
 }
 
+#caixa_texto {
+    display:none;
+}
 
 .introducao {
     display: flex;

@@ -3,5 +3,9 @@ const  caixa_texto = getElementById("caixa_texto");
 
 botao_text.addEventListener("click", () => {
 
-  caixa_texto.style.display = "block";
+if(caixa_texto.style.display === "block"){
+caixa_texto.style.display = "none";
+} else {
+  caixa_texto.style.display = "block"; }
+
 })
