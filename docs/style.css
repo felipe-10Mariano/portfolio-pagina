@@ -13,7 +13,7 @@ body {
     padding-bottom: 3%; 
 }
 
-.texto-escrita {
+#caixa_texto {
     width:60%;
     height: 50%;
     position: fixed; 
