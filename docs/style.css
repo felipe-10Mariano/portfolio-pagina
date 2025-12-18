@@ -30,10 +30,15 @@ body {
    padding:5%;
     justify-content: center;
     justify-items: center;
-    font-size: 230%;
     font-family: "Exo 2", sans-serif;
-    font-weight: 400;
+   
     
+}
+
+.introducao div {
+     font-size: 230%;
+    font-weight: 400;
+
 }
 
 button {
