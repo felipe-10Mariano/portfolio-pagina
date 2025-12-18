@@ -2,6 +2,7 @@
 const botao_chama_text = document.getElementById("abrir_texto");
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
+const botao_section = document.querySelector("section");
 
 caixa_texto.style.display === "none";
 
@@ -17,4 +18,8 @@ botao_chama_text.addEventListener("click", () => {
 
 botao_envia.addEventListener("click", () => {
    caixa_texto.style.display = "none";
+})
+
+botao_section.addEventListener("click", () => {
+    
 })
