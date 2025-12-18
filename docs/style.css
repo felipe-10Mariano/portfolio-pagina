@@ -15,17 +15,18 @@ body {
 
 #caixa_texto {
     position: fixed; 
-    justify-content: center;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    
      
 }
 
 #textoDigitado {
     width:60%;
     height: 50%;
-     border: 6% solid #b1e384;
+    top: 50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+          justify-content: center;
+     border: 5px solid #b1e384;
 }
 
 #caixa_texto {
