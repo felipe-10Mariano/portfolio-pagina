@@ -31,7 +31,15 @@ body {
 }
 
 #caixa_seccao {
-    background-color: #b1e384;
+background: #b1e384;
+    display: block;
+    width: 60%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    border: 300px blue;
 }
 
 #caixa_seccao {

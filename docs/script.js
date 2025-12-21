@@ -26,3 +26,6 @@ botao_envia.addEventListener("click", () => {
 botao_section.addEventListener("click", () => {
     
 })
+
+
+// eu estou fazendo uma modificações no botões como, agora vai vir section primeiro depois texto, então pensei em criar mai uma coisa ante da caixa. Criar uma caixa para section:eu clico no botão seção abre uma aba onde tem criar uma nova section ou section existente. \\
