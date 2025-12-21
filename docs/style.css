@@ -50,6 +50,10 @@ button {
     padding:10px;
 }
 
+header {
+    color:#3964ff;
+}
+
 .introducao p {
     display: flex;
     font-size: 50%;
