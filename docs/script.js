@@ -13,7 +13,7 @@ botao_seccao.addEventListener("click", () => {
    
    
     if (opcoes_seccao.style.display === "none") {
-            opcoes_seccao.style.display = "block";
+            opcoes_seccao.style.display = "flex";
         } else {
             opcoes_seccao.style.display = "none";
         }
