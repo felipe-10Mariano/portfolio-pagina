@@ -34,6 +34,10 @@ body {
     background-color: #b1e384;
 }
 
+#caixa_seccao {
+display: none;
+}
+
 .introducao {
     display: flex;
    padding:5%;
