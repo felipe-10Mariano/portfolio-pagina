@@ -65,7 +65,13 @@ display: none;
 }
 
 button {
-    padding:10px;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+img {
+    width:50%;
 }
 
 header {
