@@ -8,11 +8,13 @@ const botao_envia = document.querySelector(".envio_texto");
 // quando o botão for crilado faz o evento dentro de ().
 
 botao_seccao.addEventListener("click", () => {
+
     // verifica se a caixa seccao está escondida ou a amotra.
    const seccao_visivel = opcoes_seccao.style.display = "none";
+
     // se cixa de seção está a escondida mostra e vice versa.
     if (opcoes_seccao.style.display === "none") {
-            opcoes_seccao.style.display = "block";
+            opcoes_seccao.style.display = "block"; 
         } else {
             opcoes_seccao.style.display = "none";
         }
