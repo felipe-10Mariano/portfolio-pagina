@@ -1,6 +1,6 @@
 // define duas constantes que chamam doi id, assim, se algo for moadifcado nelas aqui também muda.
 const botao_seccao = document.getElementById("abrir_seccao");
-const opcoes_seccao = document.getElementById("caixa_seccao")
+const opcoes_seccao = document.getElementById("#caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
  
