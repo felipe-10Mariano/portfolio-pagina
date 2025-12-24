@@ -35,15 +35,15 @@ display: none;
 }
 
 #caixa_seccao {
-background: #f3ffe9;
-     border: 5px solid #b1e384;
+background: #f2f4f5;
+     border: 10px solid #b1e384;
+     padding:10%;
     width: 60%;
     height: 40%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: fixed;
-    border: 300px blue;
 }
 
 .introducao {
