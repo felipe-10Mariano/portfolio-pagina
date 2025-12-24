@@ -23,7 +23,7 @@ body {
 #textoDigitado {
     width:150%;
     height: 250px;
-     border: 5px solid #b1e384;
+
 }
 
 #caixa_texto {
@@ -36,7 +36,7 @@ display: none;
 
 #caixa_seccao {
 background: #f3ffe9;
-border: 8px #b1e384;
+     border: 5px solid #b1e384;
     width: 60%;
     height: 40%;
     top: 50%;

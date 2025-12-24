@@ -9,8 +9,10 @@ const botao_envia = document.querySelector(".envio_texto");
 
 botao_seccao.addEventListener("click", () => {
 
+    const visivel = getComputedStyle(opcoes_seccao).display;
+
     // se cixa de seção está a escondida mostra e vice versa.
-    if (opcoes_seccao.style.display === "none") {
+    if (visivel === "none") {
             opcoes_seccao.style.display = "block"; 
         } else {
             opcoes_seccao.style.display = "none";
