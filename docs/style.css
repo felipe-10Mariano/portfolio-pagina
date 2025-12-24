@@ -60,7 +60,7 @@ display: none;
 }
 
 .introducao div {
-     font-size: 230%;
+     font-size: 150%;
     font-weight: 400;
 
 }
@@ -81,7 +81,7 @@ header {
 
 .introducao p {
     display: flex;
-    font-size: 50%;
+    font-size: 40%;
     justify-content: end;
     }
 
