@@ -31,11 +31,12 @@ body {
 }
 
 #caixa_seccao {
-background: #b1e384;
+background: #f3ffe9;
+border: 4% #b1e384;
 justify-content: center;
 justify-content: center;
     display: block;
-    width: 40%;
+    width: 60%;
     height: 40%;
     top: 50%;
     left: 50%;
