@@ -31,6 +31,10 @@ body {
 }
 
 #caixa_seccao {
+display: none;
+}
+
+#caixa_seccao {
 background: #f3ffe9;
 border: 8px #b1e384;
     width: 60%;
@@ -40,10 +44,6 @@ border: 8px #b1e384;
     transform: translate(-50%,-50%);
     position: fixed;
     border: 300px blue;
-}
-
-#caixa_seccao {
-display: none;
 }
 
 .introducao {
