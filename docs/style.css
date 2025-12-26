@@ -1,5 +1,5 @@
 body {
-    background: #f2f4f5;
+    background: #7c51e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
     margin-bottom: 1%; 
@@ -7,9 +7,6 @@ body {
     margin-right: 3%;
 }
 
-.usuario {
-display: none;
-}
 
 .editor {
     display: flex;
@@ -47,6 +44,17 @@ background: #f2f4f5;
     left: 50%;
     transform: translate(-50%,-50%);
     position: fixed;
+}
+
+#entrada {
+    background: #ffa36d;
+    display: flex;
+    justify-content: center;
+
+}
+
+.usuario {
+display: none;
 }
 
 .usuario {
