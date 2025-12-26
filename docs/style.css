@@ -7,6 +7,9 @@ body {
     margin-right: 3%;
 }
 
+.usuario {
+display: none;
+}
 
 .editor {
     display: flex;
