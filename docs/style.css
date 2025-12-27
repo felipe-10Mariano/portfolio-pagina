@@ -53,6 +53,12 @@ background: #f2f4f5;
 
 }
 
+#imgentrada {
+    background: #503495;
+    padding: 5%;
+    border: 2px solid #dde4f9;
+}
+
 .usuario {
 display: none;
 }
