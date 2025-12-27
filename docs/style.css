@@ -47,7 +47,6 @@ background: #f2f4f5;
 }
  
 #entrada {
-    /* background: #ffa36d; */
     display: flex;
     justify-content: center;
 
@@ -101,7 +100,7 @@ header {
 .img-principal {
    padding-left: 3%;
    padding-top: 20%;
-    width: 110%; /* Define uma largura para garantir a visibilidade */
+    width: 110%;
     height: auto;
 }
 
