@@ -47,7 +47,7 @@ background: #f2f4f5;
 }
  
 #entrada {
-    background: #ffa36d;
+    /* background: #ffa36d; */
     display: flex;
     justify-content: center;
 
