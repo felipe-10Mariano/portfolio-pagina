@@ -52,6 +52,10 @@ background: #f2f4f5;
 
 }
 
+.capa-entrada {
+    display:flex;
+}
+
 #imgentrada {
     background: #503495;
     padding: 5%;
