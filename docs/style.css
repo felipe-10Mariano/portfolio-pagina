@@ -56,6 +56,12 @@ background: #f2f4f5;
     display:flex;
 }
 
+.capa-entrada p{
+padding-left: 4%;
+max-width: 60%;
+}
+
+
 #imgentrada {
     background: #503495;
     padding: 5%;
