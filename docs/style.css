@@ -45,31 +45,9 @@ background: #f2f4f5;
     transform: translate(-50%,-50%);
     position: fixed;
 }
-  
-#entrada {
-    display: flex;
-    justify-content: center;
-
-}
-
-.capa-entrada {
-    display:flex;
-}
-
-.capa-entrada p{
-padding-left: 4%;
-max-width: 60%;
-}
-
-
-#imgentrada {
-    background: #503495;
-    padding: 5%;
-    border: 2px solid #dde4f9;
-}
 
 .usuario {
-display: none;
+display: flex;
 }
 
 .usuario {
