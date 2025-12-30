@@ -67,6 +67,7 @@ display: flex;
 
 .usuario p {
     display: flex;
+    color:#8dcf07;
     font-size: 2.5svh;
     justify-content: end;
     }
@@ -82,7 +83,7 @@ cursor: pointer;
 }
 
 header {
-    color:#3964ff;
+    color: #ffdc33;
 }
 
 .img-principal {
