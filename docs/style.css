@@ -59,8 +59,9 @@ display: flex;
     
 }
 
-.usuario div {
+.usuario header {
      font-size: 5vh;
+         color: #ffdc33;
     font-weight: 400;
 
 }
@@ -82,9 +83,7 @@ cursor: pointer;
     width:80%;
 }
 
-header {
-    color: #ffdc33;
-}
+
 
 .img-principal {
    padding-left: 5vh;
