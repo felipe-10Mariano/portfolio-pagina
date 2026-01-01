@@ -46,6 +46,10 @@ background: #f2f4f5;
     position: fixed;
 }
 
+#capa {
+    background:#8dcf07;
+}
+
 #pagina-1 {
 display: flex;
    padding:5%;
