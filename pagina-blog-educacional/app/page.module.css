@@ -1,0 +1,13 @@
+.header {
+font-size: 3vw;
+}
+
+.author {
+  margin-top: 32px;
+}
+
+.divider {
+  margin-top: 24px;
+  height: 1px;
+  background-color: #ddd;
+}

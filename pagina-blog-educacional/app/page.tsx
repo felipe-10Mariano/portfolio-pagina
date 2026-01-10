@@ -1,14 +1,19 @@
+import styles from "./page.module.css";
+
 export default function Home() {
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial" }}>
-      <header>Meu site educacional</header>
-      <p>
-        Este site vai ser usado na escola e futuramente terá conteúdo editável.
-      </p>
+    <body id={styles.padrao}>
+      <main>
+        <header className={styles.header}>
+          Portfólio Educacional
+        </header>
 
-      <button>
-        Clique aqui
-      </button>
-    </main>
+        <section className={styles.author}>
+          <h2>André Felipe</h2>
+        </section>
+
+        <div className={styles.divider} />
+      </main>
+    </body>
   );
 }
