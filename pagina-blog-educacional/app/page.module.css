@@ -1,13 +1,19 @@
-.header {
-font-size: 3vw;
+.fixedHeader {
+  display:flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
 }
 
-.author {
-  margin-top: 32px;
+.titulo{
+  font-size: 3vw;
 }
 
-.divider {
-  margin-top: 24px;
-  height: 1px;
-  background-color: #ddd;
+
+
+.content {
+  padding-top: 40px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }

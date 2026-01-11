@@ -2,16 +2,14 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <main>
-        <header className={styles.header}>
-          Portfólio Educacional
-        </header>
+    <>
+      <header className={styles.fixedHeader}>
+        <h1 className={styles.titulo}>blog educacional</h1>
+      </header>
 
-        <section className={styles.author}>
-          <h2>André Felipe</h2>
-        </section>
-
-        <div className={styles.divider} />
+      <main className={styles.content}>
+        {/* depois o conteúdo vai aqui */}
       </main>
+    </>
   );
 }
