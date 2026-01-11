@@ -2,7 +2,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <body id={styles.padrao}>
       <main>
         <header className={styles.header}>
           Portfólio Educacional
@@ -14,6 +13,5 @@ export default function Home() {
 
         <div className={styles.divider} />
       </main>
-    </body>
   );
 }
