@@ -7,7 +7,7 @@
 }
 
 .titulo{
-  font-size: 3vw;
+ font-size: clamp(1.9rem, 3.8vw, 2.6rem);
 }
 
 

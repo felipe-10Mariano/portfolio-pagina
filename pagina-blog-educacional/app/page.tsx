@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <header className={styles.fixedHeader}>
-        <h1 className={styles.titulo}>blog educacional</h1>
+        <h1 className={styles.titulo}> andrefelipe.blog </h1>
       </header>
 
       <main className={styles.content}>
