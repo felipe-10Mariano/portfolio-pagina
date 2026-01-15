@@ -55,7 +55,7 @@ background: #f2f4f5;
     position: fixed;
 }
 
-#capa {
+#usuario {
     display: flex;
     position: fixed;
     transform: translate(45%,40%);
