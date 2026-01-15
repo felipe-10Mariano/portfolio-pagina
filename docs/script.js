@@ -43,7 +43,7 @@ function ativarEditor() {
 // Verifica se o editor está na lista
 if (editoresPermitidos.includes(editorAtual)) {
 
-    // Mostra a caixa de senha
+    // Mostra a caixa de senha 
     caixaSenha.style.display = "block";
     espacoEditor.style.display = "none";
 
