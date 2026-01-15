@@ -3,7 +3,30 @@ const botao_seccao = document.getElementById("abrir_seccao");
 const opcoes_seccao = document.getElementById("caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
- 
+
+ // pega parametros do link e verifica se exist o parametro editor, para editores 
+const parametros = new URLSearchParams(window.location.search);
+const paraEditores = parametros.get("editor");
+
+const espacoEditor = document.querySelectorAll(".editor");
+const espacoUsuario = document.getElementById("usuario");
+
+if (paraEditores === "andre") {
+
+    // Mostra a área do editor
+    espacoEditor.style.display = "block";
+
+    // Mostra área pública também
+    espacoUsuario.style.display = "block";
+
+} else {
+
+    // Se for visitante comum, esconde editor
+    espacoEditor.style.display = "none";
+
+    // Mostra só conteúdo público
+    espacoUsuario.style.display = "block";
+}
 
 // quando o botão for crilado faz o evento dentro de ().
 

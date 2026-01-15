@@ -13,6 +13,15 @@ body {
     padding-bottom: 3%; 
 }
 
+#senhaEditor {
+ display: none;
+}
+
+#senhaEditor  p {
+color: red; 
+display: none;
+}
+
 #caixa_texto {
     position: fixed; 
     top: 50%;
