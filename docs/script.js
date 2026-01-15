@@ -10,6 +10,12 @@ const paraEditores = parametros.get("editor");
 
 const espacoEditor = document.querySelectorAll(".editor");
 const espacoUsuario = document.getElementById("usuario");
+const caixaSenha = document.getElementById("senhaEditor");
+const inputSenha = document.getElementById("inputSenha");
+const btnEntrar = document.getElementById("btnEntrarEditor");
+const erroSenha = document.getElementById("erroSenha");
+
+
 
 if (paraEditores === "andre") {
 
@@ -27,6 +33,48 @@ if (paraEditores === "andre") {
     // Mostra só conteúdo público
     espacoUsuario.style.display = "block";
 }
+
+function ativarEditor() {
+    caixaSenha.style.display = "none";
+    espacoEditor.style.display = "block";
+    espacoUsuario.style.display = "block";
+}
+
+// Verifica se o editor está na lista
+if (editoresPermitidos.includes(editorAtual)) {
+
+    // Mostra a caixa de senha
+    caixaSenha.style.display = "block";
+    espacoEditor.style.display = "none";
+
+    // Quando clicar no botão "Entrar"
+    btnEntrar.addEventListener("click", () => {
+
+        // Verifica se a senha está correta
+        if (inputSenha.value === SENHA_EDITOR) {
+
+            // Guarda que o editor foi autenticado
+            sessionStorage.setItem("editorAutenticado", "true");
+
+            ativarEditor();
+
+        } else {
+            // Mostra erro
+            erroSenha.style.display = "block";
+        }
+    });
+
+    // Se já estiver autenticado nessa sessão
+    if (sessionStorage.getItem("editorAutenticado") === "true") {
+        ativarEditor();
+    }
+
+} else {
+    // Visitante comum
+    areaEditor.style.display = "none";
+    areaUsuario.style.display = "block";
+}
+
 
 // quando o botão for crilado faz o evento dentro de ().
 
