@@ -1,5 +1,5 @@
 body {
-    background: #7c51e5;
+    background: #e5cc51;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
     margin-bottom: 1%; 
@@ -50,7 +50,7 @@ background: #f2f4f5;
     display: flex;
     position: fixed;
     transform: translate(45%,40%);
-    background: #4e2ca1;
+    background: #67893b;
     justify-content: center;
     padding: 3vw;
     border-radius: 3ch;
@@ -68,14 +68,13 @@ background: #f2f4f5;
 
 header {
      font-size: 5vh;
-         color: #ffdc33;
+    color: #0d5695;
     font-weight: 400;
-
 }
 
 p {
     display: flex;
-    color:#8dcf07;
+    color:black;
     font-size: 2.5svh;
     justify-content: end;
     }
