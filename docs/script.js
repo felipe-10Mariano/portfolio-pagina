@@ -12,7 +12,7 @@ const paraEditores = parametros.get("editor");
 
 const espacoEditor = document.querySelector(".editor");
 const espacoUsuario = document.getElementById("usuario");
-const caixaSenha = document.getElementById("senhaEditor");
+const caixaSenha = document.getElementById("segurancaEditor");
 const inputSenha = document.getElementById("inputSenha");
 const btnEntrar = document.getElementById("btnEntrarEditor");
 const erroSenha = document.getElementById("erroSenha");
