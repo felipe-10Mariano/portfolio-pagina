@@ -1,4 +1,6 @@
 // define duas constantes que chamam doi id, assim, se algo for moadifcado nelas aqui também muda.
+const editores = ["andre", "joao"];
+const SENHA_EDITOR = "portfolio2025";
 const botao_seccao = document.getElementById("abrir_seccao");
 const opcoes_seccao = document.getElementById("caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
@@ -8,7 +10,7 @@ const botao_envia = document.querySelector(".envio_texto");
 const parametros = new URLSearchParams(window.location.search);
 const paraEditores = parametros.get("editor");
 
-const espacoEditor = document.querySelectorAll(".editor");
+const espacoEditor = document.querySelector(".editor");
 const espacoUsuario = document.getElementById("usuario");
 const caixaSenha = document.getElementById("senhaEditor");
 const inputSenha = document.getElementById("inputSenha");
@@ -41,7 +43,7 @@ function ativarEditor() {
 }
 
 // Verifica se o editor está na lista
-if (editoresPermitidos.includes(editorAtual)) {
+if (editores.includes(paraEditores)) {
 
     // Mostra a caixa de senha 
     caixaSenha.style.display = "block";
@@ -71,8 +73,8 @@ if (editoresPermitidos.includes(editorAtual)) {
 
 } else {
     // Visitante comum
-    areaEditor.style.display = "none";
-    areaUsuario.style.display = "block";
+    espacoEditor.style.display = "none";
+    espacoEditor.style.display = "block"; 
 }
 
 
@@ -99,4 +101,3 @@ botao_seccao.addEventListener("click", () => {
 })
 
 
-// eu estou fazendo uma modificações no botões como, agora vai vir section primeiro depois texto, então pensei em criar mai uma coisa ante da caixa. Criar uma caixa para section:eu clico no botão seção abre uma aba onde tem criar uma nova section ou section existente. \\
