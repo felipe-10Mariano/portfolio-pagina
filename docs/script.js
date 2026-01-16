@@ -19,23 +19,6 @@ const erroSenha = document.getElementById("erroSenha");
 
 
 
-// if (paraEditores === "andre") {
-
-//     // Mostra a área do editor
-//     espacoEditor.style.display = "block";
-
-//     // Mostra área pública também
-//     espacoUsuario.style.display = "block";
-
-// } else {
-
-//     // Se for visitante comum, esconde editor
-//     espacoEditor.style.display = "none";
-
-//     // Mostra só conteúdo público
-//     espacoUsuario.style.display = "block";
-// }
-
 function ativarEditor() {
     caixaSenha.style.display = "none";
     espacoEditor.style.display = "flex";

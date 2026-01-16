@@ -58,7 +58,9 @@ background: #f2f4f5;
 #usuario {
     display: flex;
     position: fixed;
-    transform: translate(45%,40%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     background: #67893b;
     justify-content: center;
     padding: 3vw;
