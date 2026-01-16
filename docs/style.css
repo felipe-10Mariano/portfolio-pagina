@@ -9,7 +9,7 @@ body {
 
 
 .editor {
-    display: flex;
+    display: none;
     padding-bottom: 3%; 
 }
 
