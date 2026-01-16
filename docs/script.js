@@ -19,22 +19,22 @@ const erroSenha = document.getElementById("erroSenha");
 
 
 
-if (paraEditores === "andre") {
+// if (paraEditores === "andre") {
 
-    // Mostra a área do editor
-    espacoEditor.style.display = "block";
+//     // Mostra a área do editor
+//     espacoEditor.style.display = "block";
 
-    // Mostra área pública também
-    espacoUsuario.style.display = "block";
+//     // Mostra área pública também
+//     espacoUsuario.style.display = "block";
 
-} else {
+// } else {
 
-    // Se for visitante comum, esconde editor
-    espacoEditor.style.display = "none";
+//     // Se for visitante comum, esconde editor
+//     espacoEditor.style.display = "none";
 
-    // Mostra só conteúdo público
-    espacoUsuario.style.display = "block";
-}
+//     // Mostra só conteúdo público
+//     espacoUsuario.style.display = "block";
+// }
 
 function ativarEditor() {
     caixaSenha.style.display = "none";
@@ -74,7 +74,7 @@ if (editores.includes(paraEditores)) {
 } else {
     // Visitante comum
     espacoEditor.style.display = "none";
-    espacoEditor.style.display = "block"; 
+    espacoUsuario.style.display = "flex"; 
 }
 
 
