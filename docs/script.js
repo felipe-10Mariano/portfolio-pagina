@@ -29,9 +29,9 @@ function ativarEditor() {
 if (editores.includes(paraEditores)) {
 
     // Mostra a caixa de senha 
-    caixaSenha.style.display = "block";
+    caixaSenha.style.display = "flex";
     espacoEditor.style.display = "none";
-
+    espacoUsuario.style.display = "none";
     // Quando clicar no botão "Entrar"
     btnEntrar.addEventListener("click", () => {
 

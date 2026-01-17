@@ -1,5 +1,5 @@
 body {
-    background: #e5cc51;
+    background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
     margin-bottom: 1%; 
@@ -17,9 +17,25 @@ body {
  display: none;
 }
 
+#segurancaEditor {
+    background: #99cd5c;
+    padding: 2vw;
+    border-radius: 2vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 #senhaEditor  p {
 color: red; 
 display: none;
+}
+
+#senhaEditor  h3 {
+    color:#247f9b;
+    font-family: "Exo 2", sans-serif;
+    
 }
 
 #caixa_texto {
