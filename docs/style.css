@@ -1,3 +1,8 @@
+html {
+font-size: clamp(5px, 10vw, 8px);
+width: 50%;
+}
+
 body {
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
@@ -97,7 +102,7 @@ width: clamp(60rem,90vw,70rem);
 }
 
 header {
-font-size: clamp(100%,5000vw,150%);
+    font-size: clamp(2rem,6vw,4rem);
     color: #20698d; 
     font-weight: 400;
 }
