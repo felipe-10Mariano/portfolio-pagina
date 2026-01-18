@@ -79,9 +79,10 @@ background: #f2f4f5;
     transform: translate(-50%,-50%);
     background: #ddcc3d;
     justify-content: center;
-    padding: 3vw;
+   padding: clamp(2%,6%,4%);
     border-radius: 3ch;
- max-width: clamp(10rem,60vw,50rem);
+width: clamp(60rem,90vw,70rem);
+    height: auto;
 }
 
 
