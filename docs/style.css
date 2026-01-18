@@ -77,16 +77,15 @@ body {
 }
 
 #usuario {
-    display: flex;
     position: fixed;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     background: #ddcc3d;
     justify-content: center;
-    padding: clamp(2%, 6%, 4%);
+    padding: clamp(0.2rem,3vw,1rem);
     border-radius: 3ch;
-    width: clamp(60rem, 90vw, 70rem);
+    width: clamp(40rem,90vw,80rem);
     height: auto;
 }
 
@@ -97,7 +96,7 @@ body {
 
 #element-2 img {
     border-radius: 2vw;
-    width: clamp(6rem, 20vw, 12rem);
+    width: clamp(17rem,25vw,22rem);
     height: auto;
 }
 
