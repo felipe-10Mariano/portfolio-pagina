@@ -1,25 +1,25 @@
 html {
-font-size: clamp(5px, 10vw, 8px);
-width: 50%;
+    font-size: clamp(5px, 10vw, 8px);
+    width: 50%;
 }
 
 body {
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
-    margin-bottom: 1%; 
+    margin-bottom: 1%;
     margin-left: 3%;
     margin-right: 3%;
-} 
+}
 
 
 .editor {
     display: none;
-    padding-bottom: 3%; 
+    padding-bottom: 3%;
 }
 
 #segurancaEditor {
- display: none;
+    display: none;
 }
 
 #segurancaEditor {
@@ -29,50 +29,50 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-#senhaEditor  p {
-color: red; 
-display: none;
+#senhaEditor p {
+    color: red;
+    display: none;
 }
 
-#senhaEditor  h3 {
-    color:#247f9b;
+#senhaEditor h3 {
+    color: #247f9b;
     font-family: "Exo 2", sans-serif;
-    
+
 }
 
 #caixa_texto {
-    position: fixed; 
+    position: fixed;
     top: 50%;
-     left:50%; 
-    transform: translate(-50%,-50% );
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #textoDigitado {
-    width:150%;
+    width: 150%;
     height: 250px;
 
 }
- 
+
 #caixa_texto {
-    display:none;
+    display: none;
 }
 
 #caixa_seccao {
-display: none;
+    display: none;
 }
 
 #caixa_seccao {
-background: #f2f4f5;
-     border: 10px solid #b1e384;
-     padding:3%;
+    background: #f2f4f5;
+    border: 10px solid #b1e384;
+    padding: 3%;
     width: 60%;
     height: 40%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     position: fixed;
 }
 
@@ -81,12 +81,12 @@ background: #f2f4f5;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background: #ddcc3d;
     justify-content: center;
-   padding: clamp(2%,6%,4%);
+    padding: clamp(2%, 6%, 4%);
     border-radius: 3ch;
-width: clamp(60rem,90vw,70rem);
+    width: clamp(60rem, 90vw, 70rem);
     height: auto;
 }
 
@@ -95,53 +95,50 @@ width: clamp(60rem,90vw,70rem);
     padding-right: 2vw;
 }
 
-#element-2  img{
+#element-2 img {
     border-radius: 2vw;
-    width: clamp(6rem,20vw,12rem);
+    width: clamp(6rem, 20vw, 12rem);
     height: auto;
 }
 
 header {
-    font-size: clamp(2rem,6vw,4rem);
-    color: #20698d; 
+    font-size: clamp(2rem, 6vw, 4rem);
+    color: #20698d;
     font-weight: 400;
 }
 
 p {
     display: flex;
-    color:black;
-    font-size: 2.5svh;
+    color: black;
+    font-size: clamp(0.2rem, 5vw, 2rem);
     justify-content: end;
-    }
+}
 
 
 #pagina-1 {
-display: none;
-   padding:5%;
+    display: none;
+    padding: 5%;
     justify-content: center;
     justify-items: center;
     font-family: "Exo 2", sans-serif;
-   
-   
+
+
 }
 
 button {
-background: none;
-border: none;
-cursor: pointer;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .imgbuttons {
-    width:80%;
+    width: 80%;
 }
 
 
 
 .img-principal {
-   padding-left: 5vh;
+    padding-left: 5vh;
     width: 40vh;
     height: auto;
 }
-
-
-
