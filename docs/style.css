@@ -77,11 +77,11 @@ background: #f2f4f5;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #67893b;
+    background: #ddcc3d;
     justify-content: center;
     padding: 3vw;
     border-radius: 3ch;
-    max-width: 50vw;
+ max-width: clamp(10rem,60vw,50rem);
 }
 
 
@@ -95,7 +95,7 @@ background: #f2f4f5;
 
 header {
      font-size: 5vh;
-    color: #0d5695;
+    color: #20698d;
     font-weight: 400;
 }
 
