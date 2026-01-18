@@ -94,7 +94,7 @@ background: #f2f4f5;
 }
 
 header {
-     font-size: 5vh;
+  font-size: clamp(1rem,4vw,2rem);
     color: #20698d; 
     font-weight: 400;
 }
