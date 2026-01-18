@@ -91,10 +91,12 @@ background: #f2f4f5;
 
 #element-2  img{
     border-radius: 2vw;
+    width: clamp(6rem,20vw,12rem);
+    height: auto;
 }
 
 header {
-  font-size: clamp(1rem,4vw,2rem);
+font-size: clamp(100%,5000vw,150%);
     color: #20698d; 
     font-weight: 400;
 }
