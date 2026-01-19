@@ -67,22 +67,23 @@ if (editores.includes(paraEditores)) {
 
 botao_ferramentas.addEventListener("click", () => {
 
-    
+    //pega o valor amostra ou econdido e esconde ou mostra um objeto
     const visivel = getComputedStyle(area_trabalho).display;
 
-    // se cixa de seção está a escondida mostra e vice versa.
     if (visivel === "none") {
-       area_trabalho.style.display = "block";
+        area_trabalho.style.display = "block";
     } else {
-               area_trabalho.style.display = "none";
+        area_trabalho.style.display = "none";
     }
-    
+
 })
 
 
 botao_seccao.addEventListener("click", () => {
-// se cixa de seção está a escondida mostra e vice versa.
+
+    //pega o valor amostra ou econdido e esconde ou mostra um objeto.
     const visivel = getComputedStyle(opcoes_seccao).display;
+
     if (visivel === "none") {
         opcoes_seccao.style.display = "block";
     } else {
