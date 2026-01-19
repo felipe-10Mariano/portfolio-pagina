@@ -77,9 +77,8 @@ body {
 }
 
 #usuario {
-    position: fixed;
-    top: 25%;
-    left: 50%;
+    margin-left: 104%;
+    margin-top: 35%;
     transform: translate(-50%,-50%);
     background: #ddcc3d;
     justify-content: center;
