@@ -15,6 +15,7 @@ body {
 .editor {
     display: none;
     padding-bottom: 3%;
+        margin-top: 3%;
 }
 
 #segurancaEditor {
@@ -41,6 +42,8 @@ body {
     font-family: "Exo 2", sans-serif;
 
 }
+
+
 
 #caixa_texto {
     position: fixed;
@@ -73,6 +76,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
+}
+
+#ferramentas {
+    display: block;
+    margin-left: 0;
+    background: rgb(237, 233, 237);
+    width: clamp(30rem, 70vw, 60rem);
+    border-radius: 3%;
 }
 
 #usuario {
