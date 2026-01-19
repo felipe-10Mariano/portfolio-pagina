@@ -1,6 +1,5 @@
 html {
     font-size: clamp(5px, 10vw, 8px);
-    width: 50%;
 }
 
 body {
@@ -77,9 +76,9 @@ body {
 }
 
 #usuario {
-    margin-left: 104%;
-    margin-top: 35%;
-    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translate(-50%,0);
     background: #ddcc3d;
     justify-content: center;
     padding: clamp(0.2rem,3vw,1rem);
