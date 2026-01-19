@@ -96,12 +96,12 @@ body {
 
 #element-2 img {
     border-radius: 2vw;
-    width: clamp(17rem,25vw,22rem);
+    width: clamp(15rem,25vw,20rem);
     height: auto;
 }
 
 header {
-    font-size: clamp(2rem, 6vw, 4rem);
+font-size: clamp(2rem, 5vw, 3rem);
     color: #20698d;
     font-weight: 400;
 }
@@ -109,7 +109,7 @@ header {
 p {
     display: flex;
     color: black;
-    font-size: clamp(0.2rem, 5vw, 2rem);
+    font-size: clamp(1rem, 5vw, 2rem);
     justify-content: end;
 }
 
