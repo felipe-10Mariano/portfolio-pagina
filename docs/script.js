@@ -1,6 +1,7 @@
 // define duas constantes que chamam doi id, assim, se algo for moadifcado nelas aqui também muda.
-const editores = ["andre", "joao"];
+const editores = ["andre"];
 const SENHA_EDITOR = "portfolio2025";
+const botao_ferramentas = document.getElementById("abrir_ferramentas");
 const botao_seccao = document.getElementById("abrir_seccao");
 const opcoes_seccao = document.getElementById("caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
