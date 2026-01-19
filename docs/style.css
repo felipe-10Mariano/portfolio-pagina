@@ -85,7 +85,7 @@ body {
     justify-content: center;
     padding: clamp(0.2rem,3vw,1rem);
     border-radius: 3vw;
-    width: clamp(40rem,90vw,80rem);
+    width: clamp(40rem,90vw,60rem);
     height: auto;
 }
 
