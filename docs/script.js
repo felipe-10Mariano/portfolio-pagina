@@ -64,6 +64,11 @@ if (editores.includes(paraEditores)) {
 
 // quando o botão for crilado faz o evento dentro de ().
 
+botao_ferramentas.addEventListener("click", () => {
+    
+})
+
+
 botao_seccao.addEventListener("click", () => {
 
     const visivel = getComputedStyle(opcoes_seccao).display;
