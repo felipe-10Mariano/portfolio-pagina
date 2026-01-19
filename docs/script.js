@@ -8,7 +8,7 @@ const opcoes_seccao = document.getElementById("caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
 
- // pega parametros do link e verifica se exist o parametro editor, para editores 
+// pega parametros do link e verifica se exist o parametro editor, para editores 
 const parametros = new URLSearchParams(window.location.search);
 const paraEditores = parametros.get("editor");
 
@@ -59,7 +59,7 @@ if (editores.includes(paraEditores)) {
 } else {
     // Visitante comum
     espacoEditor.style.display = "none";
-    espacoUsuario.style.display = "flex"; 
+    espacoUsuario.style.display = "flex";
 }
 
 
@@ -67,27 +67,35 @@ if (editores.includes(paraEditores)) {
 
 botao_ferramentas.addEventListener("click", () => {
 
-})
-
-
-botao_seccao.addEventListener("click", () => {
-
-    const visivel = getComputedStyle(opcoes_seccao).display;
+    
+    const visivel = getComputedStyle(area_trabalho).display;
 
     // se cixa de seção está a escondida mostra e vice versa.
     if (visivel === "none") {
-            opcoes_seccao.style.display = "block"; 
-        } else {
-            opcoes_seccao.style.display = "none";
-        }
+       area_trabalho.style.display = "block";
+    } else {
+               area_trabalho.style.display = "none";
+    }
+    
+})
+
+
+botao_seccao.addEventListener("click", () => {
+// se cixa de seção está a escondida mostra e vice versa.
+    const visivel = getComputedStyle(opcoes_seccao).display;
+    if (visivel === "none") {
+        opcoes_seccao.style.display = "block";
+    } else {
+        opcoes_seccao.style.display = "none";
+    }
 })
 
 botao_envia.addEventListener("click", () => {
-   caixa_texto.style.display = "none";
+    caixa_texto.style.display = "none";
 })
 
 botao_seccao.addEventListener("click", () => {
-    
+
 })
 
 
