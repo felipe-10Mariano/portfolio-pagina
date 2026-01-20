@@ -82,8 +82,9 @@ body {
 display: block;
     padding: 0.5%;
     margin-left: 0;
-    background: rgb(237, 233, 237);
+    background: #ede9ed;
     width: clamp(30rem, 70vw, 60rem);
+    border: 3px solid #405cbf;
     border-radius: 24rem;
 }
 
