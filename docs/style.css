@@ -41,6 +41,7 @@ body {
 #senhaEditor h3 {
     color: #247f9b;
     font-family: "Exo 2", sans-serif;
+    font-size: clamp(1rem,10vw,3rem);
 
 }
 
