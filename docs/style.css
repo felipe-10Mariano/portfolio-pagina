@@ -25,6 +25,7 @@ body {
 #segurancaEditor {
     background: #99cd5c;
     padding: 2vw;
+    width: clamp(20rem,40vw,30rem);
     border-radius: 2vw;
     position: fixed;
     top: 50%;
