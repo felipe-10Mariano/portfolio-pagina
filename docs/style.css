@@ -81,6 +81,10 @@ body {
 }
 
 #ferramentas {
+    display: none;
+}
+
+#ferramentas {
 display: block;
     padding: 0.5%;
     margin-left: 0;
