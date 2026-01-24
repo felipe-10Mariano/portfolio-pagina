@@ -109,13 +109,6 @@ display: block;
 }
 
 
-
-#identidade img {
-    border-radius: 5vw;
-    max-width: clamp(5rem,25vw,9rem);
-    height: auto;
-}
-
 header {
 font-size: clamp(2rem, 5vw, 3rem);
     color: #20698d;
@@ -129,6 +122,15 @@ p {
     justify-content: end;
 }
 
+#identidade img {
+    border-radius: 5vw;
+    max-width: clamp(5rem,25vw,9rem);
+    height: auto;
+}
+
+span {
+        font-size: clamp(0.5rem,2vw,2.2rem);
+}
 
 #pagina-1 {
     display: none;
