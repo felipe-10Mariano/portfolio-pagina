@@ -111,8 +111,8 @@ display: block;
 
 
 #element-2 img {
-    border-radius: 2vw;
-    width: clamp(15rem,25vw,20rem);
+    border-radius: 5vw;
+    max-width: clamp(10rem,25vw,15rem);
     height: auto;
 }
 
