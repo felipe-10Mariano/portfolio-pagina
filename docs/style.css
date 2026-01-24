@@ -3,6 +3,9 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
