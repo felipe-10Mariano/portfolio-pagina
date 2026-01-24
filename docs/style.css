@@ -95,15 +95,15 @@ display: block;
 }
 
 #usuario {
-    margin-left: 50%;
-    margin-top: 3%;
-    transform: translate(-50%,0);
+    display: flex;
+    margin-top: 3vh;
     background: #ddcc3d;
+    align-items: center;
     justify-content: center;
-    padding: clamp(0.2rem,3vw,1rem);
-    border-radius: 3vw;
+    gap: 2vh;
+    padding: clamp(0.5rem,3vw,1.2rem);
+    border-radius: 2rem;
     width: clamp(40rem,90vw,60rem);
-    height: auto;
 }
 
 
