@@ -112,7 +112,7 @@ display: block;
 
 #identidade img {
     border-radius: 5vw;
-    max-width: clamp(10rem,25vw,15rem);
+    max-width: clamp(5rem,25vw,9rem);
     height: auto;
 }
 
