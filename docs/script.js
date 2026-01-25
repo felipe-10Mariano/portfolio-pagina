@@ -1,10 +1,6 @@
 // define duas constantes que chamam doi id, assim, se algo for moadifcado nelas aqui também muda.
 const editores = ["andre"];
 const SENHA_EDITOR = "portfolio2025";
-const area_trabalho = document.getElementById("ferramentas")
-const botao_ferramentas = document.getElementById("abrir_ferramentas");
-const botao_seccao = document.getElementById("abrir_seccao");
-const opcoes_seccao = document.getElementById("caixa_seccao")
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
 
@@ -62,34 +58,32 @@ if (editores.includes(paraEditores)) {
     espacoUsuario.style.display = "grid";
 }
 
+// 1️⃣ Constantes
+const botao_ferramentas = document.getElementById("abrir_ferramentas");
+const area_trabalho = document.getElementById("ferramentas");
 
-// quando o botão for crilado faz o evento dentro de ().
+const botao_seccao = document.getElementById("abrir_seccao");
+const opcoes_seccao = document.getElementById("caixa_seccao");
 
-botao_ferramentas.addEventListener("click", () => {
+// 2️⃣ Função única de toggle
+function toggleElemento(elemento) {
+    const visivel = getComputedStyle(elemento).display;
+    elemento.style.display = visivel === "none" ? "block" : "none";
+}
 
-    //pega o valor amostra ou econdido e esconde ou mostra um objeto
-    const visivel = getComputedStyle(area_trabalho).display;
+// 3️⃣ Eventos (cada um no seu if)
+if (botao_ferramentas && area_trabalho) {
+    botao_ferramentas.addEventListener("click", () => {
+        toggleElemento(area_trabalho);
+    });
+}
 
-    if (visivel === "none") {
-        area_trabalho.style.display = "block";
-    } else {
-        area_trabalho.style.display = "none";
-    }
+if (botao_seccao && opcoes_seccao) {
+    botao_seccao.addEventListener("click", () => {
+        toggleElemento(opcoes_seccao);
+    });
+}
 
-})
-
-
-botao_seccao.addEventListener("click", () => {
-
-    //pega o valor amostra ou econdido e esconde ou mostra um objeto.
-    const visivel = getComputedStyle(opcoes_seccao).display;
-
-    if (visivel === "none") {
-        opcoes_seccao.style.display = "block";
-    } else {
-        opcoes_seccao.style.display = "none";
-    }
-})
 
 botao_envia.addEventListener("click", () => {
     caixa_texto.style.display = "none";
