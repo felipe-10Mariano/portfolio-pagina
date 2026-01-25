@@ -3,12 +3,14 @@ html {
 }
 
 body {
+    position:absolute;
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin-top: 2%;
     margin-bottom: 1%;
     margin-left: 3%;
     margin-right: 3%;
+    height: 250px;
 }
 
 .content {
