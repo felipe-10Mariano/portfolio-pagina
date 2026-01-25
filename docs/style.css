@@ -11,6 +11,12 @@ body {
     margin-right: 3%;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .editor {
     display: none;
