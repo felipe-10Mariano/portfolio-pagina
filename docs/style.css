@@ -122,6 +122,17 @@ p {
     justify-content: end;
 }
 
+#identidade {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 #identidade img {
     border-radius: 5vw;
     max-width: clamp(5rem,25vw,9rem);

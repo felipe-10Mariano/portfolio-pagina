@@ -24,7 +24,7 @@ const erroSenha = document.getElementById("erroSenha");
 function ativarEditor() {
     caixaSenha.style.display = "none";
     espacoEditor.style.display = "flex";
-    espacoUsuario.style.display = "flex";
+    espacoUsuario.style.display = "grid";
 }
 
 // Verifica se o editor está na lista
@@ -59,7 +59,7 @@ if (editores.includes(paraEditores)) {
 } else {
     // Visitante comum
     espacoEditor.style.display = "none";
-    espacoUsuario.style.display = "flex";
+    espacoUsuario.style.display = "grid";
 }
 
 
