@@ -103,13 +103,13 @@ header h1 {
     color: #20698d;
     font-weight: 400;
 }
-
+/* 
 p {
     display: flex;
     color: black;
     font-size: clamp(1rem, 5vw, 2rem);
     justify-content: end;
-}
+} */
 
 #identidade {
     position: absolute;
