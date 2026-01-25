@@ -21,11 +21,9 @@ body {
         margin-top: 3%;
 }
 
-#segurancaEditor {
-    display: none;
-}
 
 #segurancaEditor {
+    display:none;
     background: #99cd5c;
     padding: 2vw;
     width: clamp(20rem,40vw,30rem);
@@ -51,6 +49,7 @@ body {
 
 
 #caixa_texto {
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -63,15 +62,10 @@ body {
 
 }
 
-#caixa_texto {
-    display: none;
-}
+
 
 #caixa_seccao {
     display: none;
-}
-
-#caixa_seccao {
     background: #f2f4f5;
     border: 10px solid #b1e384;
     padding: 3%;
@@ -83,12 +77,9 @@ body {
     position: fixed;
 }
 
-#ferramentas {
-    display: none;
-}
 
 #ferramentas {
-display: block;
+display: none;
     padding: 0.5%;
     margin-left: 0;
     background: #ede9ed;
