@@ -2,6 +2,11 @@ html {
     font-size: clamp(5px, 10vw, 8px);
 }
 
+.oculto {
+    display: none;
+}
+
+
 body {
     display: flex;
     justify-content: center;

@@ -67,9 +67,9 @@ const opcoes_seccao = document.getElementById("caixa_seccao");
 
 // 2️⃣ Função única de toggle
 function toggleElemento(elemento) {
-    const visivel = getComputedStyle(elemento).display;
-    elemento.style.display = visivel === "none" ? "block" : "none";
+    elemento.classList.toggle("oculto");
 }
+
 
 // 3️⃣ Eventos (cada um no seu if)
 if (botao_ferramentas && area_trabalho) {
