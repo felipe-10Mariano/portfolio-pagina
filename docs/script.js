@@ -4,10 +4,11 @@ const SENHA_EDITOR = "portfolio2025";
 const caixa_texto = document.getElementById("caixa_texto");
 const botao_envia = document.querySelector(".envio_texto");
 
-// pega parametros do link e verifica se exist o parametro editor, para editores 
+// url editor
 const parametros = new URLSearchParams(window.location.search);
 const paraEditores = parametros.get("editor");
 
+// pricipais
 const espacoEditor = document.querySelector(".editor");
 const espacoUsuario = document.getElementById("usuario");
 const caixaSenha = document.getElementById("segurancaEditor");
@@ -20,7 +21,7 @@ const editorAutenticado = sessionStorage.getItem("editorAutenticado") === "true"
 
 if (!editorValido) {
     // Visitante comum
-    mostrarVisitante();
+    mostraVisitante();
 
 } else if (editorAutenticado) {
     // Editor já logado
@@ -28,9 +29,10 @@ if (!editorValido) {
 
 } else {
     // Editor válido, mas não logado
-    pedirSenhaEditor();
+    confirmarEditor();
 }
 
+// SECÕES PARA EDITORES, USARIOS E CLOGIN DE EDITORES.
 
 function mostraVisitante() {
     espacoEditor.style.display = "none";
@@ -39,7 +41,7 @@ function mostraVisitante() {
 }
 
 function confirmarEditor() {
-    caixaSenha.style.display = "none";
+    caixaSenha.style.display = "flex";
     espacoEditor.style.display = "none";
     espacoUsuario.style.display = "none";
 }
@@ -50,7 +52,18 @@ function ativarEditor() {
     espacoUsuario.style.display = "grid";
 }
 
-// Verifica se o editor está na lista
+// BOTAO LOGIN EDITOR
+
+if (btnEntrar) {
+    btnEntrar.addEventListener("click", () => {
+        if (inputSenha.value === SENHA_EDITOR) {
+            sessionStorage.setItem("editorAutenticado", "true");
+            ativarEditor();
+        } else {
+            erroSenha.style.display = "block";
+        }
+    });
+}
 
 
 // 1️⃣ Constantes
