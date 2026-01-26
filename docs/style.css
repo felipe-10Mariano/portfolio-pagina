@@ -8,17 +8,19 @@ html {
 
 
 body {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
     padding: 2rem;
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin: 0px;
 }
 
-.content {
+.pagina {
     display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content {
     position:relative;
     place-items: center;
     width: clamp(40rem,90vw,60rem);
