@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -96,8 +96,6 @@ display: none;
     height: 250px;
     margin-top: 3vh;
     background: #ddcc3d;
-    align-items: center;
-    justify-content: center;
     gap: 2vh;
     padding: clamp(0.5rem,3vw,1.2rem);
     border-radius: 2rem;
