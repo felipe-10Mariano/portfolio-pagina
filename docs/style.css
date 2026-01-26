@@ -3,7 +3,10 @@ html {
 }
 
 body {
-
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem;
     background: #5171e5;
     font-family: "Baloo Thambi 2", system-ui;
     margin: 0px;
