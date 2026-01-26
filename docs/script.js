@@ -18,9 +18,9 @@ const erroSenha = document.getElementById("erroSenha");
 
 
 function ativarEditor() {
-    caixaSenha.style.display = "none";
-    espacoEditor.style.display = "flex";
-    espacoUsuario.style.display = "grid";
+    caixaSenha.classList.add("oculto");
+    espacoEditor.classList.remove("oculto");
+    espacoUsuario.classList.remove("oculto");
 }
 
 // Verifica se o editor está na lista
