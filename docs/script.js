@@ -15,48 +15,43 @@ const inputSenha = document.getElementById("inputSenha");
 const btnEntrar = document.getElementById("btnEntrarEditor");
 const erroSenha = document.getElementById("erroSenha");
 
+const editorValido = editores.includes(paraEditores);
+const editorAutenticado = sessionStorage.getItem("editorAutenticado") === "true";
 
+if (!editorValido) {
+    // Visitante comum
+    mostrarVisitante();
+
+} else if (editorAutenticado) {
+    // Editor já logado
+    ativarEditor();
+
+} else {
+    // Editor válido, mas não logado
+    pedirSenhaEditor();
+}
+
+
+function mostraVisitante() {
+    espacoEditor.style.display = "none";
+    caixaSenha.style.display = "none";
+    espacoUsuario.style.display = "grid";
+}
+
+function confirmarEditor() {
+    caixaSenha.style.display = "none";
+    espacoEditor.style.display = "none";
+    espacoUsuario.style.display = "none";
+}
 
 function ativarEditor() {
-    caixaSenha.classList.add("oculto");
-    espacoEditor.classList.remove("oculto");
-    espacoUsuario.classList.remove("oculto");
+ caixaSenha.style.display = "none";
+    espacoEditor.style.display = "flex";
+    espacoUsuario.style.display = "grid";
 }
 
 // Verifica se o editor está na lista
-if (editores.includes(paraEditores)) {
 
-    // Mostra a caixa de senha 
-    caixaSenha.style.display = "flex";
-    espacoEditor.style.display = "none";
-    espacoUsuario.style.display = "none";
-    // Quando clicar no botão "Entrar"
-    btnEntrar.addEventListener("click", () => {
-
-        // Verifica se a senha está correta
-        if (inputSenha.value === SENHA_EDITOR) {
-
-            // Guarda que o editor foi autenticado
-            sessionStorage.setItem("editorAutenticado", "true");
-
-            ativarEditor();
-
-        } else {
-            // Mostra erro
-            erroSenha.style.display = "block";
-        }
-    });
-
-    // Se já estiver autenticado nessa sessão
-    if (sessionStorage.getItem("editorAutenticado") === "true") {
-        ativarEditor();
-    }
-
-} else {
-    // Visitante comum
-    espacoEditor.style.display = "none";
-    espacoUsuario.style.display = "grid";
-}
 
 // 1️⃣ Constantes
 const botao_ferramentas = document.getElementById("abrir_ferramentas");
@@ -86,7 +81,7 @@ if (botao_seccao && opcoes_seccao) {
 
 if (caixa_texto && botao_envia) {
     botao_envia.addEventListener("click", () => {
-        caixa_texto.style.display = "none";
+         toggleElemento(caixa_texto);
     })
 }
 
