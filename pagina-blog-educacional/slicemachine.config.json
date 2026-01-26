@@ -1,5 +1,0 @@
-{
-  "repositoryName": "pagina-blog-educacional",
-  "adapter": "@slicemachine/adapter-next",
-  "libraries": ["./slices"]
-}
