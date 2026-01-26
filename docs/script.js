@@ -84,10 +84,10 @@ if (botao_seccao && opcoes_seccao) {
     });
 }
 
-
-botao_envia.addEventListener("click", () => {
-    caixa_texto.style.display = "none";
-})
-
+if (caixa_texto && botao_envia) {
+    botao_envia.addEventListener("click", () => {
+        caixa_texto.style.display = "none";
+    })
+}
 
 
