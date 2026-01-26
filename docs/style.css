@@ -77,7 +77,6 @@ body {
 
 
 #caixa_seccao {
-    display: none;
     background: #f2f4f5;
     border: 10px solid #b1e384;
     padding: 3%;
@@ -91,7 +90,6 @@ body {
 
 
 #ferramentas {
-display: none;
     padding: 0.5%;
     margin-left: 0;
     background: #ede9ed;
