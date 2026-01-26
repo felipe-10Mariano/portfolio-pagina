@@ -89,8 +89,5 @@ botao_envia.addEventListener("click", () => {
     caixa_texto.style.display = "none";
 })
 
-botao_seccao.addEventListener("click", () => {
-
-})
 
 
