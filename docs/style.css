@@ -23,9 +23,24 @@ body {
 .content {
     position:relative;
     place-items: center;
-    width: clamp(40rem,90vw,60rem);
-    padding: clamp(0.5rem,3vw,1.2rem);
+    width: 92vw;
+    max-width: 42rem;
+    padding: 2rem;
     border-radius: 2rem;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 85vw;
+        max-width: 50rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        width: 80vw;
+        max-width: 70rem;
+    }
 }
 
 
@@ -101,9 +116,17 @@ body {
 }
 
 #usuario {
+    
     height: 250px;
     margin-top: 3vh;
-    background: #ddcc3d;
+   background-image: url("imagens/capa.jpg");
+    background-size: cover;        /* cobre toda a caixa */
+    background-position: center;   /* centraliza */
+    background-repeat: no-repeat;
+
+    /* borda com a cor antiga */
+    border: 6px solid #ddcc3d;      /* amarelo antigo */
+
     gap: 2vh;
 }
 
