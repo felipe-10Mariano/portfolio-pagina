@@ -119,12 +119,6 @@ body {
     
     height: 250px;
     margin-top: 3vh;
-   background-image: url("imagens/capa.jpg");
-    background-size: cover;        /* cobre toda a caixa */
-    background-position: center;   /* centraliza */
-    background-repeat: no-repeat;
-
-    /* borda com a cor antiga */
     border: 6px solid #ddcc3d;      /* amarelo antigo */
 
     gap: 2vh;
