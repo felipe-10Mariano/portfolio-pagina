@@ -83,6 +83,7 @@ function toggleElemento(elemento) {
 if (botao_ferramentas && area_trabalho) {
     botao_ferramentas.addEventListener("click", () => {
         toggleElemento(area_trabalho);
+        toggleElemento(botao_seccao);
     });
 }
 
