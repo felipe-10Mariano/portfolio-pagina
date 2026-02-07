@@ -92,6 +92,8 @@ if (botao_seccao) {
     });
 }
 
+
+
 if (caixa_texto && botao_envia) {
     botao_envia.addEventListener("click", () => {
          toggleElemento(caixa_texto);
