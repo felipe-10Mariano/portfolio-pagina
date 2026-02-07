@@ -169,7 +169,7 @@ span {
 
 }
 
-button {
+.editorbuttons {
     background: none;
     border: none;
     cursor: pointer;
