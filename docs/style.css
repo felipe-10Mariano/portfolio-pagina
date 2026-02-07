@@ -69,6 +69,7 @@ body {
 }
 
 #senhaEditor h3 {
+    z-index: 200;
     color: #247f9b;
     font-family: "Exo 2", sans-serif;
     font-size: clamp(1rem,10vw,3rem);
@@ -94,6 +95,7 @@ body {
 
 
 #caixa_seccao {
+    z-index: 100;
     background: #f2f4f5;
     border: 5px solid #b1e384;
     padding: 3%;
@@ -107,6 +109,7 @@ body {
 
 
 #ferramentas {
+    z-index: 10;
     padding: clamp(1.5rem,5vw,3rem);
     margin-left: 0;
     background: #ede9ed;
@@ -116,7 +119,7 @@ body {
 }
 
 #usuario {
-    
+    z-index: 1;
     height: 250px;
     margin-top: 3vh;
     background: #ddcc3d;      /* amarelo antigo */
