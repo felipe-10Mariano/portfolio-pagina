@@ -133,13 +133,7 @@ header h1 {
     color: #20698d;
     font-weight: 400;
 }
-/* 
-p {
-    display: flex;
-    color: black;
-    font-size: clamp(1rem, 5vw, 2rem);
-    justify-content: end;
-} */
+
 
 #identidade {
     position: absolute;
@@ -162,7 +156,7 @@ span {
         font-size: clamp(0.5rem,2vw,2.2rem);
 }
 
-#pagina-1 {
+/* #pagina-1 {
     display: none;
     padding: 5%;
     justify-content: center;
@@ -170,7 +164,7 @@ span {
     font-family: "Exo 2", sans-serif;
 
 
-}
+} */
 
 .editorbuttons {
     background: none;
