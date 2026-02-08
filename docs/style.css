@@ -114,6 +114,12 @@ body {
     border-radius: 2rem;
 }
 
+#naveagacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
 #usuario {
     grid-template-columns: auto 1fr;
     z-index: 1;
