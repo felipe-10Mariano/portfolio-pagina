@@ -14,11 +14,11 @@ body {
     margin: 0px;
 }
 
-.pagina {
+/* .pagina {
     display: grid;
     justify-content: center;
     justify-items: center;
-}
+} */
 
 .content {
     position:relative;
