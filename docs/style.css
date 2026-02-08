@@ -115,6 +115,7 @@ body {
 }
 
 #usuario {
+    grid-template-columns: auto 1fr;
     z-index: 1;
     height: 250px;
     margin-top: 2rem;
