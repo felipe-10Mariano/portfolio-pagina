@@ -14,16 +14,7 @@ body {
     margin: 0px;
 }
 
-/* .pagina {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-} */
 
-.content {
-    position:relative;
-    place-items: center;
-}
 
 @media (min-width: 768px) {
     .content {
@@ -114,6 +105,11 @@ body {
     border-radius: 2rem;
 }
 
+.pagina {
+    display: grid;
+    justify-content: center;
+}
+
 #naveagacao {
     display: flex;
     flex-direction: column;
@@ -189,6 +185,3 @@ span {
 
 
 /* outras config */
-#titulo-caixa {
-    
-}
