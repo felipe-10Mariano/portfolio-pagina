@@ -110,7 +110,7 @@ body {
     justify-content: center;
     gap: 2rem;
 }
-
+ 
 #naveagacao {
     display: flex;
     flex-direction: column;
