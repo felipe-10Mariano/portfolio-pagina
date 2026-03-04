@@ -52,6 +52,16 @@ function ativarEditor() {
     espacoUsuario.style.display = "grid";
 }
 
+function aplicarEfeitos(...elementos) {
+    elementos.forEach (el => {
+        el.style.display = "grid";
+    });
+}
+
+ aplicarEfeitos(
+    document.querySelector('main'),
+ )
+
 // BOTAO LOGIN EDITOR
 
 if (btnEntrar) {
