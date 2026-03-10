@@ -9,7 +9,7 @@ html {
 
 body {
     padding: 2rem;
-    background: #5171e5;
+    background: #D96868;
     font-family: "Baloo Thambi 2", system-ui;
     margin: 0px;
 }
@@ -122,7 +122,7 @@ body {
     grid-template-columns: auto 1fr;
     z-index: 1;
     height: 250px;
-    background: #ddcc3d;      /* amarelo antigo */
+    background: #FBF6F6;      /* amarelo antigo */
     gap: 1.5rem;
     border-radius: 1.5rem;
     padding: 1.5rem;
@@ -132,8 +132,8 @@ body {
 header h1 {
     text-align: center;
     font-size: clamp(2rem, 5vw, 3rem);
-    color: #20698d;
-    font-weight: 400;
+    color: #6A7E3F;
+    font-weight: 500;
 }
 
 
@@ -146,12 +146,12 @@ header h1 {
 
 #identidade img {
     border-radius: 5vw;
-    max-width: clamp(5rem,25vw,9rem);
+    max-width: clamp(2rem,25vw,9rem);
     height: auto;
 }
 
 span {
-        font-size: clamp(0.5rem,2vw,2.2rem);
+        font-size: clamp(0.5rem,2vw,1.2rem);
 }
 
 /* #pagina-1 {
