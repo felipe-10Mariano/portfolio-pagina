@@ -146,12 +146,12 @@ header h1 {
 
 #identidade img {
     border-radius: 5vw;
-    max-width: clamp(2rem,25vw,9rem);
+    max-width: clamp(1rem,8vw,6rem);
     height: auto;
 }
 
 span {
-        font-size: clamp(0.5rem,2vw,1.2rem);
+        font-size: clamp(1rem,2vw,1.5rem);
 }
 
 /* #pagina-1 {
